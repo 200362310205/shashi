@@ -1,0 +1,459 @@
+/*This shows the formattings that should be included for all tags*/
+/*common css part*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:sans-serif ;
+}
+
+@media screen and (max-width:150opx){
+    .section1_include1{width: 100%;}
+    .section1_include1 .items1{width: 75%;}
+    .section1_include1 .items2{width: 25%;}
+    .section1_include2{width: 100%;}
+    .section1_include2 .items3{width: 25%;}
+    .items6{width: 100%;}
+    .items6 iframe{width: 60%;}
+    .items6 img{width: 30%;}
+    .items7{width: 100%;}
+    .items7 img{width: 25%;}
+    .cosmetics{width: 100%;}
+    .foter{width: 100%;}
+}
+
+@media screen and (max-width:1200px){
+   .common{width: 100%;}
+   .logo img{width: 80px; height: 80px;}
+   .logo header h1{font-size: 50px;}
+   .searchbox{width: 100%;}
+   .search{width: 1100;}
+   .btn{width: 80;}
+   .mobnav{display: block;} 
+   .nav ul{display: none;}
+   .items6{width: 100%;}
+   .items6 iframe{width: 60%;}
+   .items6 img{width: 30%;}
+   .items7{width: 100%;}
+   .items7 img{width: 25%;}
+   .cosmetics{width: 100%;}
+   .foter{width: 100%;}
+}
+
+@media screen and  (max-width:800px){  
+   .common{width: 100%;}
+   .logo img{width: 60px; height: 60px;}
+   .logo header h1{font-size: 30px;}  
+   .searchbox{width: 100%;}
+   .search{width: 700;}
+   .btn{width: 80;} 
+   .items6{width: 100%;}
+   .items6 iframe{width: 100%;order: 1;}
+   .items6 img{width: 100%;order: 2;}
+   .items7{width: 100%;}
+   .items7 img{width: 80%;}
+   .cosmetics{width: 800px;}
+   .cosmetics_table{overflow-x: auto;}
+   .foter{width: 100%;padding: 0;}
+
+}
+
+@media screen and(max-width:600px){
+   .common{width: 100%;}
+   .logo img{width: 40px; height: 40px;}
+   .logo header h1{font-size: 10px;}
+   .mobnav {display: block;}
+   .searchbox{width: 100%;}
+   .search{width: 500;}
+   .btn{width: 80;} 
+   .items6{width: 100%;}
+   .items6 iframe{width: 100%;order: 1;}
+   .items6 img{width: 100%;order: 2;}
+   .items7{width: 100%;}
+   .items7 img{width: 80%;}
+   .foter{width: 100%;padding: 0;}
+
+}
+
+body{   
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+.container_1{
+   padding-left: 30px;
+}
+
+header{
+    color:skyblue;
+    font-family: serif;
+}
+
+header h1{
+    padding: 20px 2px;
+    font-size: 70px;
+    font-weight: bold;
+}
+
+.searchbox{
+    background-color: black;
+    height: 60px;
+    border: 4px solid white;
+    margin: 0 auto;
+}
+
+.searchbar{
+    margin: 10px;
+}
+    
+
+.search{
+    font-family: 'Times New Roman', Times, serif;
+    width: 1380px;
+    height: 30px;
+    background: transparent;
+    border: 1px solid skyblue;    
+    color: skyblue;
+    float: left;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+.common{
+    width: 1500px;
+    margin: 0 auto;
+    background-color: black;
+}
+
+.btn{
+    width: 80px;
+    height: 30px;
+    background-color: skyblue;   
+    color: black;
+    border-radius: 5px;
+}
+
+.btn:focus{
+    outline: none;
+}
+
+.search:focus{
+    outline: none;
+}
+
+
+nav{
+    background-color:black;
+    margin-top: 30px;
+}
+    
+nav ul{
+    list-style: none;
+}
+
+nav ul li{
+    display: inline;
+    font-weight: 800;
+}
+
+nav ul li a{
+    display: inline-block;
+    padding: 10px 20px;
+    border-right: 1px solid white;
+    color: white;
+    transition: translate(-50%,-50%);
+    transition: 5%;
+}
+
+.mobnav{
+    display: none;
+}
+.mobnav ul li{
+    width: 100%;
+    display: block;
+}
+
+.mobnav ul li a{
+    width: 100%;
+    border-bottom: 1px solid white;
+    padding: 20px;
+}
+
+.mobnav h3{
+    padding: 20px;
+}
+
+
+.mobnav{
+    display: none;
+}
+
+nav ul li a:hover{
+    color:rgb(255, 60, 0);
+    letter-spacing: 1px;
+}
+
+
+.logo{
+    display: flex;
+    width: 100%;
+
+}
+
+.logo img{ 
+    width: 100px;
+    cursor: pointer;
+    margin: 7px 0;
+    padding: 10px;
+}
+
+.title header h2{
+    padding-top: 50px;
+    padding-left: 50px;
+    color: black;
+    font-size: 50px;
+}
+
+.main_image {
+    width: 1500px;
+    margin: 0px auto;
+}
+
+.main_image img{
+    padding-top: 20px;
+    width:100%;
+    
+
+}
+
+.main h2{
+    margin: 1rem;
+    text-align: justify;
+}
+/*end ocommon css part*/
+
+/*start dairy css part*/
+.section_4 .ditems{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+
+.section_4 .ditems .items3{
+    padding: 20px 40px;
+}
+/*end dairy products page*/
+
+/*common css part*/
+
+
+.items3 .price{
+    align-items: center;
+    margin: 20px;
+    text-align: center;
+    color: rgb(220, 24, 24);
+    font-weight: bold;
+ }
+ 
+ .items3 img{
+    /* width: 200px;
+     height: 150px;*/
+    align-items: center;
+ }
+ 
+ .items3 img:hover{
+      transform: scale(1.1);
+ }
+ 
+ .items3 a{
+     align-items: center;
+ }
+ 
+ .items3 a button{
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    background-color: blue;
+    padding: 6px 30px;
+    text-align: center;
+    color: white;
+    cursor: pointer;
+    box-shadow: blue;
+    border-radius: 15px;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: box-shadow, transform;
+    transition-property: box-shadow, transform;
+ }
+ 
+ .items3 a button:hover, a button:focus, a button:active{
+     box-shadow: 0 0 20px grey;
+     -webkit-transform: scale(1.1);
+ }
+ 
+.items3 h5{
+     text-align: center;
+     padding-top: 10px;
+ }
+ /*end comman css part*/
+
+ /*start vegetable page*/
+ /*start vegetable page*/
+.place .sub h5{
+    font-size: 40px;
+    font-weight: bold;
+    margin: 20px;
+}
+
+.place p{
+    font-size: 20px;
+    padding: 10px;
+}
+
+.place .items5 h6{
+    font-weight: bold;
+    color:rgba(6, 27, 124, 0.867) ;
+    font-size: 30px;
+    margin: 20px;
+}
+
+.vegetable .place .items5 .items6{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+    justify-content: space-around;
+    margin: 20px;
+
+}
+
+.vegetable .place .items5 .items7{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color:rgb(12, 175, 240) ;
+    margin: 25px;
+
+}.vegetable .place .items5 .items7 img{
+    width: 400px;
+}
+
+
+.vegetable .place .items5 img{
+    width: 300px;
+    height: 250px;
+    margin: 25px;
+}
+
+.vegetable .place .items5 .items6 img {
+    margin: 25px 25px;
+    width: 400px;
+}
+
+.items8{
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+    grid-gap: 1rem;
+    justify-content: space-around;
+    align-content: space-around;
+}
+
+.vitems{
+    padding-left: 100px;
+    padding-top: 100px;
+}
+
+/*start cosmetics and skin care products page*/
+.cosmetics_table {
+    width: 1500px;
+    border: 5px solid black;
+    margin: 20px;
+}
+
+.cosmetics_table tbody tr{
+    padding: 10px;
+    border: 3px solid black;
+}
+
+.cosmetics_table tbody tr .product{
+    font-size: 25px;
+    font-weight: bold;
+    color:white ;
+    background-color: blue;
+    text-align: center;
+    width: 250px;
+    border-radius: 25px;
+}
+
+.cosmetics_table tbody tr .brand{
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    width: 250px;
+    background-color:rgb(12, 175, 240) ;
+    border-radius: 25px;
+}
+
+.items10{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+   padding: 50px;
+    padding-right: 10px;
+    border: 4px solid blue;
+    border-radius: 25px;
+}
+
+.cosmetics_table tbody tr .table_images .items10 .items3{
+    padding-top: 30px;
+}
+
+.cosmetics_table tbody tr .table_images .items10 .items3 h5{
+    font-size: 15px;
+    font-weight: 700;
+   text-align: center;
+}
+
+.cosmetics_table tbody tr .table_images .items10 .items3 img{
+   height: 200px;
+    width: 180px;
+   
+    
+   
+}
+/*end cosmetics page*/
+
+
+
+/*fotter section*/
+.foter{
+    background-color:black;
+    margin-top: 10px;  
+   padding: 50px;
+}
+
+.foter .social{
+    display: flex;
+    justify-content: center;
+}
+
+.foter .social img{
+    width: 80px;
+    height: 80px;
+    padding: 5px;
+    border: 2px solid gray;
+    margin: 10px;
+    border-radius: 50%;
+}
+
+.foter .socialmedia ul li{
+    color: gray;
+    list-style: none;
+    text-align: center;
+    padding: 5px;
+}

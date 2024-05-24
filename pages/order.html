@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum=1.0, minimum=1.0,">
+        <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
+        <script>
+            $(document).ready(function(){
+                $('.mobnav h3').click(function(){
+                    $('.mobnav ul').slideToggle();
+                })
+            })
+        </script>
+        <link rel="stylesheet" href="../css/other.css">
+    </head>
+    <body>
+        <!--common part-->
+        <section class="common">
+            <div class="container_1">
+                <section class="logo">
+                    <a href="../index.html"><img src="../images/home page/610365.png"></a>
+                    <header>
+                       <h1> <i>ASH  GROCERY  CENTRE</i></h1>
+                    </header>
+                </section>
+                <nav>
+                    <ul>
+                        <li><a href="../index.html">HOME</a></li>
+                        <li><a href="../pages/aboutus.html" >ABOUT US</a></li>
+                        <li><a href="../pages/dairy.html">DAIRY PRODUCTS</a></li>
+                        <li><a href="../pages/vegetable.html">VEGETABLES</a></li>
+                        <li><a href="../pages/skincare.html">COSMETICS & SKINCARE PRODUCTS</a></li>
+                        <li><a href="../pages/order.html">ORDER</a></li>
+                        <li><a href="../pages/loyality.html">LAYALITY</a></li>  
+                    </ul>
+                    <div class="mobnav">
+                        <h3>Menu</h3>
+                        <ul>
+                            <li><a href="../index.html">HOME</a></li>
+                            <li><a href="../pages/aboutus.html" >ABOUT US</a></li>
+                            <li><a href="../pages/dairy.html">DAIRY PRODUCTS</a></li>
+                            <li><a href="../pages/vegetable.html">VEGETABLES</a></li>
+                            <li><a href="../pages/skincare.html">COSMETICS & SKINCARE PRODUCTS</a></li>
+                            <li><a href="../pages/order.html">ORDER</a></li>
+                            <li><a href="../pages/loyality.html">LAYALITY</a></li>  
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+            <section class="searchbox">
+                <div class="searchbar">
+                    <input class="search" type="search" name="search" placeholder="Type to text">
+                    <button class="btn">Search</button>
+                </div>
+            </section>
+        </section>
+
+        <!--start order page-->
+        <section class="order">
+            <div class="title">            
+                <header>
+                    <h2>ORDER</h2>
+                </header>       
+            </div>
+            <div class="main_image">
+                <img src="../images/order/main2.jpg" >
+            </div>
+            <!--end common part-->
+
+            <h4>Fill in the below details before the order </h4>
+            <section class="form">
+                <div class="items12">
+                    <form>
+                        <div class="items20">
+                            <div class="items21">
+                                <fieldset class="field">
+                                    <legend class="leg">Sender Information</legend>
+                                        <div class="items13">
+                                            <span>Full Name :</span>
+                                            <input type="text" placeholder="Chathuni Liyanage">
+                                        </div> 
+                                        <div class="items13">
+                                            <span>Email :</span>
+                                            <input type="email" placeholder="example@example.com">
+                                        </div> 
+                                        <div class="items13">
+                                            <span>Address :</span>
+                                            <input type="text" placeholder="Home NO - Street - City">
+                                        </div> 
+                                        <div class="items13">
+                                            <span>Tele Phone :</span>
+                                            <input type="text" placeholder="07x xxxx xxx">
+                                        </div>                        
+                                </fieldset>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+
+                <div class="items12">
+                    <form>
+                        <div class="items20">
+                            <div class="items21">
+                                <fieldset class="field">
+                                    <legend class="leg">receiver information</legend>
+                                        <div class="items13">
+                                            <span>Full Name :</span>
+                                            <input type="text" placeholder="Chathuni Liyanage">
+                                        </div> 
+                                        <div class="items13">
+                                            <span>Email :</span>
+                                            <input type="email" placeholder="example@example.com">
+                                        </div> 
+                                        <div class="items13">
+                                            <span>Address :</span>
+                                            <input type="text" placeholder="Home NO - Street - City">
+                                        </div> 
+                                        <div class="items13">
+                                            <span>Tele Phone :</span>
+                                            <input type="text" placeholder="07x xxxx xxx">
+                                        </div>                        
+                                </fieldset>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+        
+
+                <div class="items12">
+                    <form>
+                        <div class="items20">
+                            <div class="items21">
+                                <fieldset class="field">
+                                    <legend class="leg">Payment methods</legend>
+                                        <div class="items22">
+                                            <span>Select the Paymentd method : </span>
+                                            <input type="radio" class="radio"> Cash
+                                            <input type="radio" class="radio"> Card <br>
+                                            <span>Fill the below details only if your payment method is card.</span>
+                                        </div>
+                                </fieldset>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+
+
+                <div class="items12">
+                    <form>
+                        <div class="items20">
+                            <div class="items21">
+                                <fieldset class="field">
+                                    <legend class="leg">card details</legend>
+                                        <div class="items13">
+                                            <span>Card Accepted :</span>
+                                            <img src="../images/order/paypal.png" width="60px" height="45px">
+                                            <img src="../images/order/American.jpg" width="60px" height="45px">
+                                            <img src="../images/order/visda.png" width="60px" height="45px">
+                                            <img src="../images/order/master.jpg" width="60px" height="45px">
+                                        </div> 
+                                        <div class="items13">
+                                            <span>Name On The Card :</span>
+                                            <input type="text" placeholder="Chathuni Liyanage">
+                                        </div> 
+                                        <div class="items13">
+                                            <span>Credit Card No :</span>
+                                            <input type="number" placeholder="1111-2222-3333-4444">
+                                        </div> 
+                                        <div class="items13">
+                                            <span>Expire Month :</span>
+                                            <input type="text" placeholder="January">
+                                        </div>   
+                                        <div class="items13">
+                                            <span>Expire Year :</span>
+                                            <input type="number" placeholder="2022">
+                                        </div>                   
+                                </fieldset>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+
+                <div class="items12">
+                    <form>
+                        <div class="items20">
+                            <div class="items21">
+                                <fieldset class="field">
+                                    <legend class="leg">Amount details</legend>
+                                        <div class="items22">
+                                            <span>Amount :</span>
+                                            <input type="text">
+                                        </div>
+                                        <div class="items22">
+                                            <span>Delivery Amount :</span>
+                                            <input type="text">
+                                            <span>(Visit <a href="aboutus.html"> ABOUT</a> to check delivery conditions.)</span>
+                                        </div>
+                                        <div class="items22">
+                                            <span>Total Amout :</span>
+                                            <input type="text">
+                                        </div>
+                                </fieldset>
+                            </div>
+                        </div>
+                    </form>                
+                </div>
+
+                <p>Do you promise the pay the deposit after we bring these thins to home?
+                <input type="button" value="YES" class="aa">
+                <input type="button" value="NO" class="aa"></p>
+
+            </section>       
+        
+        </section>
+
+        <footer>
+            <div class="foter">
+                <div class="social">
+                    <a href="" ><img src="../images/home page/download.png"></a>
+                        <a href=""><img src="../images/home page/email.jpg"></a>
+                        <a href=""><img src="../images/home page/facebook.png"></a>
+                        <a href=""><img src="../images/home page/google.png"></a>
+                        <a href=""><img src="../images/home page/insta.png"></a>
+                        <a href=""><img src="../images/home page/whatsaap.webp"></a>
+                </div>
+                <div class="socialmedia">
+                    <ul>
+                        <li>Contact us - 073 4567890</li>
+                        <li>Contact us - 073 4567899</li>
+                        <li>Contact us - 011 4567899</li>
+                        <li>Whatsapp - 0731245678</li>
+                        <li>ashshopping@gmail.com</li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>
